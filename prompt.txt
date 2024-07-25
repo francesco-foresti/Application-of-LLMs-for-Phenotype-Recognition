@@ -1,0 +1,14 @@
+Please carefully read the following medical report about a patient. 
+Your task involves multiple steps to process and extract specific information related to the patient's phenotypes as detailed below:
+1. Extract Patient Phenotypes: Identify and extract only the phenotypes described for the patient. Do not include information related to relatives or any other individuals. Focus solely on the patient's conditions and characteristics as mentioned in the report.
+2. Map to HPO Terms: For each identified phenotype, find the corresponding Human Phenotype Ontology (HPO) term. If a direct match for an HPO term cannot be found, identify the closest related term. Clearly indicate if the term is a direct match or the closest approximation to the identified phenotype.
+3. Retrieve HPO Indices: For each HPO term identified, find the corresponding HPO index. The HPO index is a unique identifier for each term within the Human Phenotype Ontology.
+4. Structured Output: Present your findings in a clear and structured format. For each identified phenotype, you should provide:
+	• Phenotype: The name of the phenotype as identified in the patient's medical report.
+	• HPO: The matched or closest HPO term followed by the HPO index in parentheses.
+Your output should only include the results in the format specified above, without any additional commentary or information.
+Example of the expected output format:
+	• Phenotype: Short stature
+	• HPO: Short stature (HP:0004322)
+Notice that this Short stature is an example, do not include it in your answer.
+Ensure accuracy and clarity in your mappings and descriptions. If you encounter any uncertainties or ambiguities in the medical report or in mapping to HPO terms, it is crucial to make a reasoned decision based on the information available, prioritizing the most relevant and specific terms while clearly indicating any approximations.
