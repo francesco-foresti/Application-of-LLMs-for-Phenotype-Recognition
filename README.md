@@ -10,8 +10,9 @@ Collaboration with medical professionals was crucial for refining the accuracy o
 ## Usage
 1. **Setup:** 
     - Ensure you have Ollama installed and downloaded locally the LLMs used in the code.
+        - **Note:** LLMs used: `'phi', 'llama2-uncensored', 'llama2:13b', 'gemma:7b', 'mistral'`
     - Ensure you have the necessary directories and files (`Medical Reports` folder and `prompt.txt`).
-    - **Note:** Add the reports that you want to analyze to the Medical Reports folder.
+        - **Note:** Add the reports that you want to analyze to the `Medical Reports` folder.
 
 2. **Run the Script:**
     - Execute the script to process medical reports and generate results.
